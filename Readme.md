@@ -1,5 +1,4 @@
-
-# GPostTemplate
+# post
 
   This is the basic template for a post in my blog
 
