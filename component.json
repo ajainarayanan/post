@@ -14,9 +14,9 @@
   "main": "index.js",
   "scripts": [
     "index.js",
-    "scripts/GPost.js"
+    "scripts/post.js"
   ],
-  "templates": ["tmpl/GPostTemplate.hbs"],
+  "templates": ["tmpl/template.hbs"],
   "styles": [
     "styles/styles.scss"
   ]

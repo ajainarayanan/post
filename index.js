@@ -1,5 +1,5 @@
 var bootstrap = require("bootstrap")
-    pTemplate = require("./scripts/GPost");
+    pTemplate = require("./scripts/post");
 
 module.exports = Post;
 
