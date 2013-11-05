@@ -6,7 +6,7 @@
   "keywords": [],
   "dependencies": {
       "brighthas/bootstrap": "*",
-      "component/jquery": "*",
+      "components/jquery": "*",
       "components/backbone": "*"
   },
   "development": {},
