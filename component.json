@@ -1,0 +1,23 @@
+{
+  "name": "post",
+  "repo": "ajainarayanan/GPostTemplate",
+  "description": "This is the basic template for a post in my blog",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+      "brighthas/bootstrap": "*",
+      "component/jquery": "*",
+      "components/backbone": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "scripts/GPost.js"
+  ],
+  "templates": ["tmpl/GPostTemplate.hbs"],
+  "styles": [
+    "styles/styles.scss"
+  ]
+}

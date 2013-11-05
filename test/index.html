@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="../build/build.js"></script>
+    <link rel="stylesheet" href="../build/build.css">
+</head>
+
+<body>
+
+<div class="something container">
+    <div class="row">
+
+    </div>
+</div>
+<script type="text/javascript">
+    var post1 = require("post")();var post2 = require("post")();var post3 = require("post")();
+    $(".something > .row").append(post1.$el);
+    $(".something > .row").append(post2.$el);
+    $(".something > .row").append(post3.$el);
+</script>
+
+</body>
+</html>
