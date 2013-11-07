@@ -1,5 +1,4 @@
-var bootstrap = require("bootstrap")
-    pTemplate = require("./scripts/post");
+var pTemplate = require("./scripts/post");
 
 module.exports = Post;
 
