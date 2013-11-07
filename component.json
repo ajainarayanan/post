@@ -6,9 +6,7 @@
   "keywords": [],
   "dependencies": {
       "components/jquery": "*",
-      "components/backbone": "*"
-  },
-  "development": {
+      "components/backbone": "*",
       "brighthas/bootstrap": "*"
   },
   "license": "MIT",
