@@ -1,10 +1,13 @@
 'use strict';
 module.exports = function (grunt) {
-    var _, hbs, component, dist;
+    var _, hbs, component, dist, sass;
 
+    grunt.loadNpmTasks('grunt-contrib-sass');
     require('time-grunt')(grunt);
     require('load-grunt-tasks')(grunt);
     _ = require('underscore');
+
+
     hbs = require('component-builder-handlebars');
 
     component = {
@@ -58,6 +61,17 @@ module.exports = function (grunt) {
                 command: './node_modules/component/bin/component install'
             }
         },
+        sass: {
+            options: {
+                //debugInfo: true,
+                 style: 'expanded'
+            },
+            compile: {
+                files: {
+                    './styles/styles.css': ['./styles/styles.scss']
+                }
+            }
+        },
         componentbuild: {
             build: component,
             dist: dist
@@ -79,6 +93,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('default', [
         'shell:dev',
+        'sass',
         'componentbuild:build'
     ]);
 

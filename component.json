@@ -5,11 +5,12 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-      "brighthas/bootstrap": "*",
       "components/jquery": "*",
       "components/backbone": "*"
   },
-  "development": {},
+  "development": {
+      "brighthas/bootstrap": "*"
+  },
   "license": "MIT",
   "main": "index.js",
   "scripts": [
@@ -18,6 +19,6 @@
   ],
   "templates": ["tmpl/template.hbs"],
   "styles": [
-    "styles/styles.scss"
+    "styles/styles.css"
   ]
 }
